@@ -10,7 +10,9 @@
         <button @click="theWalk" class="myButton">The Walk</button>
         <button @click="information" class="myButton">Information</button>
         <button @click="registration" class="myButton">Registration</button>
+        <button @click="sponsorship" class="myButton">Sponsorship</button>
         <button @click="ourLinks" class="myButton">Our Links</button>
+        <button @click="tac" class="myButton">Terms & Conditions</button>
       </div>
       <h1>Rotary Club of Stokesley</h1>
       <h1>Teams up with Village Water</h1>
@@ -120,6 +122,7 @@
       </p>
       <hr>
     </div>
+    <!--- REGISTRATION ----------------------------------------------------------------------------------------------------------------------------------------->
     <div class="child-div" id="registration">
       <h2>Registration</h2>
       <div>
@@ -132,16 +135,89 @@
         <p class="reg-info">Please send this form with cheques made payable to The Rotary Club of Stokesley, Walk for Water, 10 Millgin Court, Ingelby Barwick, Teesside TS17 5AY</p>
         <p class="reg-info">Please, please try to get your friends and neighbours to join you.</p>
         <p class="reg-info">Confirmation sponsor forms and full information will be emailed to you – Payment secures yourplace.</p>
+        <br>
+        <p>If you would like to register please email the following information</p>
+        <p class="bacs">Name of Walker(s):  </p>
+        <p class="bacs">Address: </p>
+        <p class="bacs">days you propose to walk: (Between the 8th to the 15th AM or PM)</p>
+        <p class="bacs">Home number: </p>
+        <p class="bacs">Mobile Number: </p>
+        <p class="bacs">Email: </p>
+        <p class="bacs">Name and Tel of Emergency contact: </p>
+        <p class="bacs">Payment can be made by BACS <br/> 
+          Sort Code 20-56-74 <br/> 
+          Acc. Number 0010435287 <br/> 
+          Please include your Surname name and <br/> 
+          initial as reference : Eg W4W Blogs J</p>
+        <p>Or by post Amount enclosed £ <br/> 
+          T0: Walk for Water <br/> 
+          10 Millgin Court <br/> 
+          Ingleby Barwick <br/> 
+          Teesside TS17 5AY</p>
       </div>
-      <b-btn variant="outline-primary" @click="createSponsorPDF">Create PDF</b-btn>
+      <hr>
     </div>
-    <!-- <div class="our-links">
+    <!--- SPONSORSHIP ----------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="child-div" id="sponsorship">
+      <h2>Sponsorship</h2>
+      <h5>If you have registered and would like to download a sponsorship form press the button below</h5>
+      <p>This will create a pdf which you can download and print from</p>
+      <b-btn variant="outline-primary" @click="createSponsorPDF">Create PDF</b-btn>
+      <hr>
+    </div>
+    <!--- OUR LINKS ----------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="child-div parent" id="ourLinks">
       <h2>Our links</h2>
+      
       <ul>
         <li><a href="https://www.rotary-ribi.org/clubs/homepage.php?ClubID=166" target="_blank" rel="noopener">Stokesley Rotary Club</a></li>
+        <li><a href="http://www.classicsonshow.co.uk/" target="_blank" rel="noopener">Classics on Show</a></li>
         <li><a href="https://villagewater.org/" target="_blank" rel="noopener">Village Water Charity</a></li>
       </ul>
-    </div> -->
+      <br>
+      <img src="@/assets/page1logo.png" alt="logo" height="150" width="600">
+      <h3>Rotaries Six Areas of Focus</h3>
+      <ul>
+        <li>Peace and conflict prevention/resolution</li>
+        <li>Disease prevention and treatment</li>
+        <li>Water and sanitation</li>
+        <li>Maternal and child health</li>
+        <li>Basic education and literacy</li>
+        <li>Economic and community development</li>
+      </ul>
+      <hr>
+    </div>
+    <!--- T and C ----------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="child-div custom-p" id="tac">
+      <h2>The Rotary Club of Stokesley</h2>
+      <h3>TERMS AND CONDITIONS</h3>
+      <p><b>Please ensure that you have read this document before submitting your registration form.</b></p>
+      <p class="reg-info">“The event" – refers to the Teesdale Walk 2019.</p>
+      <p class="reg-info">The Rotary Club of Stokesley includes the Walk Committee and "the organiser" means either or both.</p>
+      <h5><b>Refunds</b></h5>
+      <p>The event is for charity so no entry fee will be refunded unless the whole event is cancelled by the Walk Committee.</p>
+      <h5><b>Safety</b></h5>
+      <p class="reg-info">The Rotary Club of Stokesley will use its best endeavours to ensure that the event is safe for all participants but each participant must also take reasonable precautions to ensure their own safety. This would include, but is not limited to:</p>
+      <p class="reg-info">Taking note of all information and advice provided by the Walk Committee with respect to appropriate clothing etc.</p>
+      <p class="reg-info">Following the rules of the Highway Code and the Country Code insofar as they apply to pedestrians</p>
+      <p class="reg-info">Following the instructions of the event organisers, the walk leader and other guides by -</p>
+      <p class="reg-info">Behaving in a sensible and responsible manner</p>
+      <p class="reg-info">Not doing anything that might endanger the health, safety or well-being of any person including themselves, other participants, and</p>
+      <p class="reg-info">Not consuming alcohol immediately before or during the event.</p>
+      <p class="reg-info">In registering for or taking part in the event you acknowledge that you do so at your own risk and that conditions may occur which give rise to risks that are unforeseen and / beyond the control of the Walk Committee.</p>
+      <h5><b>Liability</b></h5>
+      <p>The Rotary Club of Stokesley accepts no liability before after or during the event for damage to or loss of any property belonging to, or brought to the event by, any participant. The Rotary Club of Stokesley accepts no liability for any injury to any participant except where the injury is directly caused by the negligence of The Rotary Club of Stokesley.</p>
+      <h5><b>Disqualification</b></h5>
+      <p>The Walk Committee reserves the right to disqualify from the event any participant who appears not to be fit to take part or who acts in a manner which the Walk Committee considers to be a breach of these conditions and/or may adversely affect the reputation of The Rotary Club of Stokesley.</p>
+      <h5><b>Health and Fitness</b></h5>
+      <p>All participants must satisfy themselves, if necessary by taking medical advice, that they are in sufficiently good health and physically able to undertake the walk in which they have chosen to participate.</p>
+      <p>Any prospective participant who has a disability must ensure both that they are fit to participate in their chosen walk section(s) and that they have support arranged to accompany or otherwise support them on the relevant walk before registering for the event.</p>
+      <h5><b>Sponsorship</b></h5>
+      <p>The event will be organised, certified and marshalled to a level appropriate for sponsors of participants to be able to be satisfied that the event is appropriate for sponsorship.</p>
+      <h5><b>Publicity</b></h5>
+      <p>The Organisers may arrange for the local press to attend the event and they may choose to take photographs. The Organisers may also take photographs that it may use for publicity in connection with future events or to publicise the activities of the Rotary Club of Stokesley.
+Images of children under 16 will not be taken or used if it can be avoided.</p>
+    </div>
   </div>
 </template>
 
@@ -213,11 +289,17 @@ export default {
     registration() {
       document.getElementById('registration').scrollIntoView();
     },
-    top(){
-      window.scrollTo(0,0);
+    sponsorship() {
+      document.getElementById('sponsorship').scrollIntoView();
     },
     ourLinks(){
-      window.scrollTo(0,2750);
+        document.getElementById('ourLinks').scrollIntoView();
+    },
+    tac(){
+        document.getElementById('tac').scrollIntoView();
+    },
+    top(){
+      window.scrollTo(0,0);
     },
     createSponsorPDF() {
       var rotaryLogo = {
@@ -347,7 +429,6 @@ export default {
   }
   .parent > ul {
     display: inline-block;
-
   }
 
   .custom-p {
