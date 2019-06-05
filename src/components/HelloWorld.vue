@@ -136,14 +136,17 @@
         <p class="reg-info">Please, please try to get your friends and neighbours to join you.</p>
         <p class="reg-info">Confirmation sponsor forms and full information will be emailed to you – Payment secures yourplace.</p>
         <br>
-        <p>If you would like to register please email the following information</p>
+        <p>If you would like to register please email the following information to: <b>walkforwaterfund@gmail.com</b></p>
         <p class="bacs">Name of Walker(s):  </p>
         <p class="bacs">Address: </p>
         <p class="bacs">days you propose to walk: (Between the 8th to the 15th AM or PM)</p>
         <p class="bacs">Home number: </p>
         <p class="bacs">Mobile Number: </p>
-        <p class="bacs">Email: </p>
+        <!-- <p class="bacs">Email: </p> -->
         <p class="bacs">Name and Tel of Emergency contact: </p>
+        <p class="bacs">Payment Amount: </p>
+        <p class="bacs">Payment Reference: </p>
+        <br>
         <p class="bacs">Payment can be made by BACS <br/> 
           Sort Code 20-56-74 <br/> 
           Acc. Number 0010435287 <br/> 
@@ -154,6 +157,8 @@
           10 Millgin Court <br/> 
           Ingleby Barwick <br/> 
           Teesside TS17 5AY</p>
+        <p>Example</p>
+        <img src="@/assets/Email.png" alt="email" height="300" width="600">
       </div>
       <hr>
     </div>
