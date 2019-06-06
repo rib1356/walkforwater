@@ -17,6 +17,9 @@
       <h1>Rotary Club of Stokesley</h1>
       <h1>Teams up with Village Water</h1>
       <img src="@/assets/page1logo.png" alt="logo" height="100" width="500">
+      <br>
+      <br>
+      <br>
       <h2>LET’S PUT OUR BEST FEET FORWARD TO</h2>
       <h2>WALK FOR WATER: THE TEESDALE WAY</h2>
       <h3>SEPTEMBER 8, 2019 – SEPTEMBER 15, 2019 </h3>
@@ -136,29 +139,65 @@
         <p class="reg-info">Please, please try to get your friends and neighbours to join you.</p>
         <p class="reg-info">Confirmation sponsor forms and full information will be emailed to you – Payment secures yourplace.</p>
         <br>
-        <p>If you would like to register please email the following information to: <b>walkforwaterfund@gmail.com</b></p>
-        <p class="bacs">Name of Walker(s):  </p>
-        <p class="bacs">Address: </p>
-        <p class="bacs">days you propose to walk: (Between the 8th to the 15th AM or PM)</p>
-        <p class="bacs">Home number: </p>
-        <p class="bacs">Mobile Number: </p>
-        <!-- <p class="bacs">Email: </p> -->
-        <p class="bacs">Name and Tel of Emergency contact: </p>
-        <p class="bacs">Payment Amount: </p>
-        <p class="bacs">Payment Reference: </p>
-        <br>
-        <p class="bacs">Payment can be made by BACS <br/> 
-          Sort Code 20-56-74 <br/> 
-          Acc. Number 0010435287 <br/> 
-          Please include your Surname name and <br/> 
-          initial as reference : Eg W4W Blogs J</p>
-        <p>Or by post Amount enclosed £ <br/> 
-          T0: Walk for Water <br/> 
-          10 Millgin Court <br/> 
-          Ingleby Barwick <br/> 
-          Teesside TS17 5AY</p>
-        <p>Example</p>
-        <img src="@/assets/Email.png" alt="email" height="300" width="600">
+        <p>Please copy and paste the form below, into your email with the relevant information to: <b>walkforwaterfund@gmail.com</b></p>
+        <div class="reg-div">
+          <p class="reg"><b>Full Name:  </b></p>
+          <p class="reg"><b>Address: </b></p>
+          <p class="reg"><b>Home phone number: </b></p>
+          <p class="reg"><b>Mobile phone number: </b></p>
+          <p class="reg"><b>Name and Tel of Emergency contact: </b></p>
+          <p class="reg">Please indicate which sections intend walking by placing a x in the relevant box</p>
+          <p class="reg">September</p>
+          <table>
+            <tr>
+              <th>Date</th>
+              <th>8th </th> 
+              <th>9th </th>
+              <th>10th</th>
+              <th>11th</th>
+              <th>12th</th>
+              <th>13th</th>
+              <th>14th</th>
+              <th>15th</th>
+            </tr>
+            <tr>
+              <td>AM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>PM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <p class="reg">Where and how to pay:- <br>
+          BACS Sort Code  20-56-74 account number 0010435287 with reference <br>
+          W4W and surname Eg W4W Blogs J
+          </p>
+          <p class="reg"><b>Amount Paid Total: £ </b></p>
+          <br>
+          <p class="reg">Alternative ways to pay:- <br/> 
+            <b>By post Amount enclosed: £ </b><br/> 
+            Please make your check out to The Rotary Club of Stokesley <br/> 
+            T0: Walk for Water <br/> 
+            10 Millgin Court <br/> 
+            Ingleby Barwick <br/> 
+            Teesside TS17 5AY</p>
+        </div>  
+        <!-- <img src="@/assets/Email.png" alt="email" height="300" width="600"> -->
       </div>
       <hr>
     </div>
@@ -173,7 +212,6 @@
     <!--- OUR LINKS ----------------------------------------------------------------------------------------------------------------------------------------->
     <div class="child-div parent" id="ourLinks">
       <h2>Our links</h2>
-      
       <ul>
         <li><a href="https://www.rotary-ribi.org/clubs/homepage.php?ClubID=166" target="_blank" rel="noopener">Stokesley Rotary Club</a></li>
         <li><a href="http://www.classicsonshow.co.uk/" target="_blank" rel="noopener">Classics on Show</a></li>
@@ -423,6 +461,20 @@ export default {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
+  .reg-div {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+  }
+
+  .reg {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
   .reg-info {
     margin-top: 3px;
     margin-bottom: 3px;
@@ -440,6 +492,12 @@ export default {
     width: 80%;
     text-align: center;
     margin: auto;
+  }
+
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:40%;
   }
   /* .welcome {
     height: 100%;
@@ -485,10 +543,13 @@ export default {
 
   @media only screen and (max-width : 768px) {
 
-    /* table {
+    table, th, td {
+      width:100%;
+    }
+
+    .reg-div {
       width: 100%;
-      max-width: 100% ;
-    } */
+    }
 
     img {
     width: auto ;
