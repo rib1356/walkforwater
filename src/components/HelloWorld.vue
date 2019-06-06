@@ -118,7 +118,7 @@
       <p class="bacs"><i>Cheques made out to Rotary Club of Stokesley posted to 6 Thirsk Road, Stokesley TS9 5BW</i></p>
       <h3>Walk for Water with The Rotary Club of Stokesley
           and help other people while you are having fun!</h3>
-      <img src="@/assets/tees3.jpg" alt="tees" height="500" width=80%>
+      <img src="@/assets/tees3.jpg" alt="tees" height="400" width=60%>
       <p>
         <img src="@/assets/tees2.jpg" alt="tees" height="400" width="300">
         <img src="@/assets/z3.jpg" alt="tees" height="400" width="450">
@@ -148,7 +148,7 @@
           <p class="reg"><b>Name and Tel of Emergency contact: </b></p>
           <p class="reg">Please indicate which sections intend walking by placing a x in the relevant box</p>
           <p class="reg">September</p>
-          <table>
+          <table class="reg-table">
             <tr>
               <th>Date</th>
               <th>8th </th> 
@@ -494,7 +494,7 @@ export default {
     margin: auto;
   }
 
-  table, th, td {
+  .reg-table {
   border: 1px solid black;
   border-collapse: collapse;
   width:40%;
