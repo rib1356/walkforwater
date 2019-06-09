@@ -3,17 +3,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <!-- <button @click="top" id="myBtn" title="Go to top" class="myBtn">Back To Top</button> -->
     <i class="fas fa-arrow-circle-up fa-2x myBtn" id="myBtn" @click="top"></i>
-    <div class="child-div">
-      <div> <!-- Navigation -->
-        <p>Click to navigate the page</p>
-        <button @click="whyWalk" class="myButton">Why Walk?</button>
+    <div class="header">
+      <button @click="whyWalk" class="myButton">Why Walk?</button>
         <button @click="theWalk" class="myButton">The Walk</button>
         <button @click="information" class="myButton">Information</button>
         <button @click="registration" class="myButton">Registration</button>
         <button @click="sponsorship" class="myButton">Sponsorship</button>
         <button @click="ourLinks" class="myButton">Our Links</button>
         <button @click="tac" class="myButton">Terms & Conditions</button>
-      </div>
+    </div>
+    <div class="child-div">
+      <!-- <div> Navigation -->
+        <!-- <p>Click to navigate the page</p> -->
+        
+      <!-- </div> -->
       <h1>Rotary Club of Stokesley</h1>
       <h1>Teams up with Village Water</h1>
       <img src="@/assets/page1logo.png" alt="logo" height="100" width="500">
@@ -431,7 +434,10 @@ export default {
       } else {
         document.getElementById("myBtn").style.display = "none";
       }
-    }
+    },
+    onItemChanged(event, currentItem, lastActiveItem) {
+      // your logic
+    },
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
@@ -441,7 +447,6 @@ export default {
   }
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
@@ -494,52 +499,11 @@ export default {
     margin: auto;
   }
 
-  .reg-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-  width:40%;
-  }
-  /* .welcome {
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    
-  }
-  .why-walk {
-    height: 100%;
-    width: 100%;
-    background-color: white;
-  } */
-  /* .the-walk {
-    height: 1300px;
-    width: 100%;
-    background-color: white;
-  }
-  .our-links {
-    height: 800px;
-    width: 100%;
-    background-color: white;
-  } */
-
-  /* table {
-    font-family: arial, sans-serif;
+  .reg-table, th, td  {
+    border: 1px solid black;
     border-collapse: collapse;
-    width: 80%;
-    margin: auto;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: auto;
-    display: block;
-  } */
-
-  /* td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  } */
-/* 
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  } */
+    width:40%;
+  }
 
   @media only screen and (max-width : 768px) {
 
