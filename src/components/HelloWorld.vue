@@ -13,20 +13,17 @@
         <button @click="tac" class="myButton">Terms & Conditions</button>
     </div>
     <div class="child-div">
-      <!-- <div> Navigation -->
-        <!-- <p>Click to navigate the page</p> -->
-        
-      <!-- </div> -->
-      <h1>Rotary Club of Stokesley</h1>
-      <h1>Teams up with Village Water</h1>
-      <img src="@/assets/page1logo.png" alt="logo" height="100" width="500">
+      <h1 class="no-marg"><b>Rotary Club of Stokesley</b></h1>
+      <h1 class="no-marg"><b>Teams up with Village Water</b></h1>
+      <br>
+      <img src="@/assets/page1logo.png" alt="logo" height="70" width="350" class="no-marg">
       <br>
       <br>
+      <h2 class="no-marg"><b>LET’S PUT OUR BEST FEET FORWARD TO</b></h2>
+      <h2 class="no-marg"><b>WALK FOR WATER: THE TEESDALE WAY</b></h2>
       <br>
-      <h2>LET’S PUT OUR BEST FEET FORWARD TO</h2>
-      <h2>WALK FOR WATER: THE TEESDALE WAY</h2>
-      <h3>SEPTEMBER 8, 2019 – SEPTEMBER 15, 2019 </h3>
-      <img src="@/assets/page1.jpg" alt="logo" height="200" width="500">
+      <h3><b>SEPTEMBER 8, 2019 – SEPTEMBER 15, 2019</b></h3>
+      <img src="@/assets/page1.jpg" alt="logo" height="200" width="500" style="margin-bottom: 10px; margin-top: 10px;">
       <p class="custom-p">The Rotary Club of Stokesley is organising a sponsored walk following the magnificent 100 miles of the Teesdale Way from Dufton in the Cumbrian Pennines to South Gare at the mouth of the Tees taking in the historic and scenic sights of Cumbria, Durham and Tees Valley en route. 
          The walk, which will span eight days, will raise funds for the Rotary-supported charity Village Water, (www.villagewater.org), which provides safe water, sanitation and hygiene for, and fosters independence among, African communities and accounts for every penny! </p>
       <hr>   
@@ -38,7 +35,7 @@
         <p>Because apart from enjoying the marvellous scenery and keeping healthy, you’ll be helping to transform the lives of villagers in Zambia’s Western Province where almost half the population still lacks safe water. Village Water’s ‘One Village At A Time’ campaign is hoping to change this.</p>
         <p>Here the scarcity of safe water means eye and infections are prevalent as is diarrhoea, in fact it kills 10 children under five years of age every day in Zambia! People often have to walk miles to a safe water source – so every step you take will remind you of their daily drudge and the reason to keep on walking!</p>
         <p>The funds raised will help supply wells so that villagers can grow their own vegetables and bananas for themselves and sell to raise income. The community will get the education and support they need to take charge of their own hygiene and sanitation, and a protected waterpoint and training to maintain it. So lasting safe water is close to home whenever they need it.</p>
-        <img src="@/assets/z1.png" alt="logo" height="400">
+        <img src="@/assets/z1.png" alt="logo" height="400" style="margin-right: 20px;">
         <img src="@/assets/51.png" alt="logo" height="200" width="200">
       </div>
       <hr>
@@ -46,19 +43,22 @@
     <!--- THE WALK ----------------------------------------------------------------------------------------------------------------------------------------->
     <div class="child-div" id="theWalk">
       <h2>The Walk</h2>
-      <h4>You can do it!</h4>
+      <h4><b>You can do it!</b></h4>
       <p class="custom-p">Those who may feel daunted by an eight day trek, can still join in because we’ve subdivided the route into manageable stages of 5-14 miles per day. You can join us for half a day, a full day or stay with us every step of the 100-mile way!</p>
       <p class="custom-p">The Walk For Water will be led by experienced rambler of Stokesley, who will be ably supported by keen hikers from The Rotary Club of Stokesley. The walk is open to all ages though youngsters under 16 years of age must be accompanied by a responsible adult. 
          Whilst the walk leader and Rotary members will be there to guide and support you, your personal health and safety is your own responsibility. </p>
-      <h5>Below you'll find the route and stages:</h5>   
-      <img src="@/assets/map.png">
-      <b-table stacked="md" striped :items="items">
+      <h5 style="margin-top:15px;"><b>Below you'll find the route and stages:</b></h5>   
+      <img src="@/assets/map.png" width="70%">
+      <br>
+      <br>
+      <b-table stacked="md" striped :items="items" class="b-table">
       </b-table>
       <h5 class="custom-p">
         Important note: As Giant Hogweed grows in a number of places along the Tees, especially from Day 5 to the first stage of day 7,  you are advised to wear long trousers.
-      </h5>  
+      </h5> 
+      <br> 
         <p>
-        <img src="@/assets/tees1.jpg" alt="logo" height="400" width="300">
+        <img src="@/assets/tees1.jpg" alt="logo" height="400" width="300" style="margin-right: 20px;">
         <img src="@/assets/z2.png" alt="logo" height="250" width="300" >
         </p>
         <hr>
@@ -69,20 +69,20 @@
       <div class="custom-p">
         <h5><b>All funds raised will go to Village Waters one Village at a Time Project in Zambia.</b></h5>
         <h5><b>You will first need to register for the walk.</b></h5>
-        <p>The registration fee is adults £10.00 per day up to £30 maximum.</p>
-        <p>Young people under the age of 16 years £5.00</p>
-        <p class="bacs"><i>Please register and pay by BACS online</i></p>
-        <p class="bacs"><i>Sort code: 20-56-74</i></p>
-        <p class="bacs"><i>Account number: 10435287</i></p>
-        <p class="bacs"><i>Please include your surname and initials as reference eg w4w Blogs J</i></p>
+        <p class="no-marg">The registration fee is adults £10.00 per day up to £30 maximum.</p>
+        <p class="no-marg">Young people under the age of 16 years £5.00</p>
+        <br>
+        <p class="no-marg"><i>Please register and pay by BACS online</i></p>
+        <p class="no-marg"><i>Sort code: 20-56-74</i></p>
+        <p class="no-marg"><i>Account number: 10435287</i></p>
+        <p class="no-marg"><i>Please include your surname and initials as reference eg w4w Blogs J</i></p>
         <p>Your information pack, including Registration and Sponsorship forms, and can be obtained from walk4waterfund@gmail.com</p>
         <p>The start points and times for each day and half day sections are clearly identified in your information pack but please be aware, getting to and from the start and finish points is your own responsibility so forward-planning is key. Marshals will
            greet you at the start points and you’ll find post codes/map reference points on the mileage chart.</p>
-        <br>
       </div>
       <div class="custom-p">
-      <p><b>Disabled access: </b>Limited availability for disabled access.</p>
-      <p><b>Where you can join us on the walk: </b>The start points for each day and half day sections are within this pack.</p>
+      <p class="no-marg"><b>Disabled access: </b>Limited availability for disabled access.</p>
+      <p class="no-marg"><b>Where you can join us on the walk: </b>The start points for each day and half day sections are within this pack.</p>
       <p><b>Getting to and from the walk is your responsibility: </b>Official places and departure times showing where you can join the walk for a section, a day or several days is clearly marked on the Walk Sections sheet. Please be at your start point 30 minutes prior to your start time. There will be Marshals to greet you at these points. Post codes/map reference points are available on the mileage chart.</p>
       <p><b>BEFORE WE GO - PREPARING FOR THE WALK</b></p>
       </div>
@@ -96,7 +96,7 @@
           <li>Dress in layers: thin thermals are good for base layers; woollen jumpers and/or mid weight polyester fleeces will suffice for mid-layers. <br/> While a waterproof jacket is essential to keep the wind and rain at bay.</li>
           <li>Opt for light, flexible, quick drying trousers or shorts if the weather is hot. Wear a hat if it’s sunny – and a different one if it’s cold!</li>
         </ul>
-        <p><b>You may also like to take</b></p>
+        <p style="text-align: left; margin-left: 17px;"><b>You may also like to take</b></p>
         <ul>
           <li>A basic first aid kit</li>
           <li>Camera</li>
@@ -106,24 +106,24 @@
           <li>Walking stick</li>
           <li>Pre-packed refreshments</li>
           <li>Your own map - though Rotary guides will have maps</li>
-          <li>And, of course, <b>Dont forget sunscreen!</b></li>
+          <li>And, of course, <b>Don't forget sunscreen!</b></li>
         </ul>
-        <h5>WANT TO KNOW MORE OR TALK IT OVER</h5>
-        <p>If you want to know anything specific, we’d be happy to help. Please call 01642 714562 or email us on walkforwaterfund@gmail.com</p>
+        <h5><b>WANT TO KNOW MORE OR TALK IT OVER</b></h5>
+        <p class="no-marg">If you want to know anything specific, we’d be happy to help. Please call 01642 714562 or email us on walkforwaterfund@gmail.com</p>
         <p><b>We welcome young people to participate: </b>Young people under the age of 16 must always have a responsible adult to walk with them.</p>
       </div>  
-      <h5><b>WANT TO DONATE?</b></h5>
+      <h3><b>WANT TO DONATE?</b></h3>
       <p>You can donate through our Virgin Giving page. Address is Virgin Giving Rotary Walk for Water</p>
-      <p class="bacs"><i>Or pay by BACS online</i></p>
-      <p class="bacs"><i>Sort code: 20-56-74</i></p>
-      <p class="bacs"><i>Account number: 10435287</i></p>
-      <p class="bacs"><i>Please include your surname and initials as reference eg w4w Blogs J</i></p>
-      <p class="bacs"><i>Cheques made out to Rotary Club of Stokesley posted to 6 Thirsk Road, Stokesley TS9 5BW</i></p>
-      <h3>Walk for Water with The Rotary Club of Stokesley
+      <p class="no-marg"><i>Or pay by BACS online</i></p>
+      <p class="no-marg"><i>Sort code: 20-56-74</i></p>
+      <p class="no-marg"><i>Account number: 10435287</i></p>
+      <p class="no-marg"><i>Please include your surname and initials as reference eg w4w Blogs J</i></p>
+      <p><i>Cheques made out to Rotary Club of Stokesley posted to 6 Thirsk Road, Stokesley TS9 5BW</i></p>
+      <h3>Walk for Water with The Rotary Club of Stokesley <br>
           and help other people while you are having fun!</h3>
       <img src="@/assets/tees3.jpg" alt="tees" height="400" width=60%>
-      <p>
-        <img src="@/assets/tees2.jpg" alt="tees" height="400" width="300">
+      <p style="margin-top: 10px;">
+        <img src="@/assets/tees2.jpg" alt="tees" height="400" width="300" style="margin-right: 20px;">
         <img src="@/assets/z3.jpg" alt="tees" height="400" width="450">
       </p>
       <hr>
@@ -132,16 +132,15 @@
     <div class="child-div" id="registration">
       <h2>Registration</h2>
       <div>
-        <p class="reg-info">Date: September 8th through to September 15th 2019</p>
-        <p class="reg-info">Start: Dufton</p>
-        <p class="reg-info">Finish: South Gare (mouth of the river Tees)</p>
-        <p class="reg-info">Please read information and walk schedule before completing the form.</p>
+        <p class="reg-info"><b>Date:</b> September 8th through to September 15th 2019</p>
+        <p class="reg-info"><b>Start:</b> Dufton</p>
+        <p class="reg-info"><b>Finish:</b> South Gare (mouth of the river Tees)</p>
+        <p>Please read information and walk schedule before completing the form.</p>
         <p class="reg-info">Registration fee is adults £10.00 per day up to £30 maximum.</p>
         <p class="reg-info">Young people under the age of 16 years £5.00</p>
-        <p class="reg-info">Please send this form with cheques made payable to The Rotary Club of Stokesley, Walk for Water, 10 Millgin Court, Ingelby Barwick, Teesside TS17 5AY</p>
+        <p>Please send this form with cheques made payable to The Rotary Club of Stokesley, Walk for Water, 10 Millgin Court, Ingelby Barwick, Teesside TS17 5AY</p>
         <p class="reg-info">Please, please try to get your friends and neighbours to join you.</p>
-        <p class="reg-info">Confirmation sponsor forms and full information will be emailed to you – Payment secures yourplace.</p>
-        <br>
+        <p class="reg-info">Confirmation sponsor forms and full information will be emailed to you – Payment secures your place.</p>
         <p>Please copy and paste the form below, into your email with the relevant information to: <b>walkforwaterfund@gmail.com</b></p>
         <div class="reg-div">
           <p class="reg"><b>Full Name:  </b></p>
@@ -209,28 +208,31 @@
       <h2>Sponsorship</h2>
       <h5>If you have registered and would like to download a sponsorship form press the button below</h5>
       <p>This will create a pdf which you can download and print from</p>
-      <b-btn variant="outline-primary" @click="createSponsorPDF">Create PDF</b-btn>
+      <b-btn variant="success" @click="createSponsorPDF">Create PDF</b-btn>
       <hr>
     </div>
     <!--- OUR LINKS ----------------------------------------------------------------------------------------------------------------------------------------->
     <div class="child-div parent" id="ourLinks">
       <h2>Our links</h2>
-      <ul>
-        <li><a href="https://www.rotary-ribi.org/clubs/homepage.php?ClubID=166" target="_blank" rel="noopener">Stokesley Rotary Club</a></li>
-        <li><a href="http://www.classicsonshow.co.uk/" target="_blank" rel="noopener">Classics on Show</a></li>
-        <li><a href="https://villagewater.org/" target="_blank" rel="noopener">Village Water Charity</a></li>
-      </ul>
+      <div class="parent custom-p2">
+        <ul>
+          <li><a href="https://www.rotary-ribi.org/clubs/homepage.php?ClubID=166" target="_blank" rel="noopener" style="color: blue;">Stokesley Rotary Club</a></li>
+          <li><a href="http://www.classicsonshow.co.uk/" target="_blank" rel="noopener" style="color: blue;">Classics on Show</a></li>
+          <li><a href="https://villagewater.org/" target="_blank" rel="noopener" style="color: blue;">Village Water Charity</a></li>
+        </ul>
+        <br>
+        <h2>Rotaries Six Areas of Focus</h2>
+        <ul style="font-size: 20px;">
+          <li>Peace and conflict prevention/resolution</li>
+          <li>Disease prevention and treatment</li>
+          <li>Water and sanitation</li>
+          <li>Maternal and child health</li>
+          <li>Basic education and literacy</li>
+          <li>Economic and community development</li>
+        </ul>
+      </div>
       <br>
-      <img src="@/assets/page1logo.png" alt="logo" height="150" width="600">
-      <h3>Rotaries Six Areas of Focus</h3>
-      <ul>
-        <li>Peace and conflict prevention/resolution</li>
-        <li>Disease prevention and treatment</li>
-        <li>Water and sanitation</li>
-        <li>Maternal and child health</li>
-        <li>Basic education and literacy</li>
-        <li>Economic and community development</li>
-      </ul>
+      <img src="@/assets/page1logo.png" alt="logo" height="70" width="350">
       <hr>
     </div>
     <!--- T and C ----------------------------------------------------------------------------------------------------------------------------------------->
@@ -277,41 +279,49 @@ export default {
        items: [
             {
               date: "Day 1: Sunday 8th September", 
+              sections: "Dufton to Cauldron Snout Cauldron Snout to Langdon Beck",
               WhatToExpect: "A long, strenuous climb of 420m over 4miles to High Cup Nick. You'll encounter a number of fords before a rocky path down to to Cauldron Snout. There's some rocky paths on the way to Widdy Bank farm before an easier final section. Excellent views",
               FirstSection: "9.6 miles Strenuous",
               SecondSection: "4.4 miles Strenuous"},
             {
               date: "Day 2: Monday 9th September", 
+              sections: "Langdon Beck to Wynch Bridge Wynch Bridge to Middleton in Teesdale",
               WhatToExpect: "A day of scenic views, passing High and Low Force, then through meadowland to Middleton in Teesdale",
               FirstSection: "5.4 miles Moderate",
               SecondSection: "3.6 miles Easy"},
             {
-              date: "Day 3: Tuesday 10th September", 
+              date: "Day 3: Tuesday 10th September",
+              sections: "Middleton in Teesdale to Romaldkirk Romaldkirk to Barnard Castle", 
               WhatToExpect: "A day of picture postcard views passing through Romaldkirk to Barnard Castle",
               FirstSection: "6.2 miles Moderate",
               SecondSection: "6.8 miles Moderate"},
             {
-              date: "Day 4: Wednesday 11th September", 
+              date: "Day 4: Wednesday 11th September",
+              sections: "Barnard Castle to Whorlton Bridge Whorlton Bridge to Gainford",
               WhatToExpect: "A day of historic sites from Barnard Castle, past Egglestone Abbey, skirting Rokeby Park then to Whorlton Bridge and on to Gainford",
               FirstSection: "4.5 miles Moderate",
               SecondSection: "5.9 miles Moderate"},
             {
-              date: "Day 5: Thursday 12th September", 
+              date: "Day 5: Thursday 12th September",
+              sections: "Gainford to Broken Scar Broken Scar to Hurworth on Tees ",
               WhatToExpect: "The path now starts to meander through farmland which can be muddy. Once we reach Broken Scar the route skirts close to Darlington before going through Croft to Hurworth",
               FirstSection: "8.4 miles Moderate",
               SecondSection: "7.1 miles Moderate"},
             {
-              date: "Day 6: Friday 13th September", 
+              date: "Day 6: Friday 13th September",
+              sections: "Hurworth on Tees to Middleton One Row Middleton One Row to Yarm Bridge",
               WhatToExpect: "After following a minor road from Hurworth to Neasham we return to a footpath by the river. Whilst fairly easy walking this path is not well maintained and can be muddy",
               FirstSection: "6.6 miles Moderate",
               SecondSection: "7.6 miles Moderate"},
             {
-              date: "Day 7: Saturday 14th September", 
+              date: "Day 7: Saturday 14th September",
+              sections: "Yarm Bridge to Stockton Water Front Stockton Water Front to the Transporter Bridge",
               WhatToExpect: "From Yarm we enter the more residential part of the route but still with good open spaces, and the added interest of the Tees Barrage and the Transporter Bridge",
               FirstSection: "8.1 miles Moderate",
               SecondSection: "5.3 miles Easy"},
             {
-              date: "Day 8: Sunday 15th September", 
+              date: "Day 8: Sunday 15th September",
+              sections: "Transporter Bridge to Warrenby Warrenby to South Gare",
               WhatToExpect: "The day's first stage mainly follows the disused railway line through Middlesbrough's industrial heartland. We celebrate the end of our walk with a stretch from Redcar to South Gare and the mouth of the Tees",
               FirstSection: "7.4 miles Easy",
               SecondSection: "3.1 miles Easy"},
@@ -435,9 +445,6 @@ export default {
         document.getElementById("myBtn").style.display = "none";
       }
     },
-    onItemChanged(event, currentItem, lastActiveItem) {
-      // your logic
-    },
   },
   created () {
     window.addEventListener('scroll', this.handleScroll);
@@ -451,6 +458,10 @@ export default {
 <style scoped>
 @import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
 
+  .header {
+    /* position:fixed; */
+  }
+
   h3 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -459,10 +470,10 @@ export default {
   .child-div {
     height: 100%;
     width: 100%;
-    background-color: white;
+    /* background-color: lightblue; */
   }
   
-  .bacs {
+  .no-marg {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -472,6 +483,7 @@ export default {
     margin: auto;
     text-align: center;
     border-style: solid;
+    background-color: white;
   }
 
   .reg {
@@ -490,13 +502,22 @@ export default {
     text-align: center;
   }
   .parent > ul {
-    display: inline-block;
+    /* display: inline-block; */
+    text-align: left;
   }
 
+
   .custom-p {
-    width: 80%;
+    width: 60%;
     text-align: center;
     margin: auto;
+    /* background: lightblue; */
+  }
+  .custom-p2 {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    /* background: lightblue; */
   }
 
   .reg-table, th, td  {
@@ -505,10 +526,20 @@ export default {
     width:40%;
   }
 
+  .b-table {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+  }
+
   @media only screen and (max-width : 768px) {
 
     table, th, td {
       width:100%;
+    }
+
+    .child-div {
+      width: 100%;
     }
 
     .reg-div {
@@ -523,6 +554,21 @@ export default {
 
     .why-walk-p {
       width: 100% ;
+    }
+
+    .custom-p {
+    width: 100%;
+    max-width: 100%;
+    }
+
+    .custom-p2 {
+     width: 100%;
+    max-width: 100%
+    }
+
+    .b-table{
+      width: 100%;
+      max-width: 100%;
     }
 
   }

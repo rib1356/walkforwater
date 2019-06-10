@@ -24,5 +24,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+  /* background-color: lightskyblue; */
+  background-color: lightblue;
+  /* background-color: lightseagreen; */
+}
+
+@media only screen and (max-width : 768px) {
+
+  #app {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 </style>
