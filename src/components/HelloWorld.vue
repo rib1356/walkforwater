@@ -4,13 +4,29 @@
     <!-- <button @click="top" id="myBtn" title="Go to top" class="myBtn">Back To Top</button> -->
     <i class="fas fa-arrow-circle-up fa-2x myBtn" id="myBtn" @click="top"></i>
     <div class="header">
-      <button @click="whyWalk" class="myButton">Why Walk?</button>
+      <!-- <b-navbar type="light" variant="info" class="custom-nav">
+        <b-navbar-nav>
+          <b-nav-item @click="whyWalk">Why Walk</b-nav-item>
+          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+        </b-navbar-nav>
+      </b-navbar> -->
+      <b-nav tabs align="center" class="custom-nav" >
+        <b-nav-item @click="top">To Top</b-nav-item>
+        <b-nav-item @click="whyWalk">Why Walk</b-nav-item>
+        <b-nav-item @click="theWalk">The Walk</b-nav-item>
+        <b-nav-item @click="information">Information</b-nav-item>
+        <b-nav-item @click="registration">Registration</b-nav-item>
+        <b-nav-item @click="sponsorship">Sponsorship</b-nav-item>
+        <b-nav-item @click="ourLinks">Our Links</b-nav-item>
+        <b-nav-item @click="tac">Terms & Conditions</b-nav-item>
+      </b-nav>
+      <!-- <button @click="whyWalk" class="myButton">Why Walk?</button>
         <button @click="theWalk" class="myButton">The Walk</button>
         <button @click="information" class="myButton">Information</button>
         <button @click="registration" class="myButton">Registration</button>
         <button @click="sponsorship" class="myButton">Sponsorship</button>
         <button @click="ourLinks" class="myButton">Our Links</button>
-        <button @click="tac" class="myButton">Terms & Conditions</button>
+        <button @click="tac" class="myButton">Terms & Conditions</button> -->
     </div>
     <div class="child-div">
       <h1 class="no-marg"><b>Rotary Club of Stokesley</b></h1>
@@ -459,8 +475,41 @@ export default {
 @import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
 
   .header {
-    /* position:fixed; */
+    position:fixed;
+    display: block;
+    width: 100%;
+    background-color: teal;
   }
+
+  .custom-nav {
+    width: 100%;
+    /* max-width: ; */
+    /* height: 40px; */
+    color: white;
+    background-color: lightsteelblue;
+    border-color: black;
+    /* margin-bottom:0px;  */
+  }
+
+  a {
+    color: black;
+    /* margin-bottom:0px; */
+    
+  }
+
+    a:hover, a:focus{
+    color: gray;
+    /* text-decoration: none; */
+    /* outline: none; */
+    border: none;
+    }
+
+  /* .active{
+    font-size: 30px;
+    color: red;
+    border-bottom: 5px solid red;
+    border-color: black;
+  } */
 
   h3 {
     margin-top: 0px;
@@ -470,6 +519,7 @@ export default {
   .child-div {
     height: 100%;
     width: 100%;
+    padding-top: 40px;
     /* background-color: lightblue; */
   }
   
@@ -540,6 +590,7 @@ export default {
 
     .child-div {
       width: 100%;
+      padding-top: 70px;
     }
 
     .reg-div {
@@ -569,6 +620,10 @@ export default {
     .b-table{
       width: 100%;
       max-width: 100%;
+    }
+
+    a {
+      padding: 3px 
     }
 
   }
