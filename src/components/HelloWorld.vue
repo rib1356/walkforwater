@@ -41,7 +41,7 @@
       <h3><b>SEPTEMBER 8, 2019 – SEPTEMBER 15, 2019</b></h3>
       <img src="@/assets/page1.jpg" alt="logo" height="200" width="500" style="margin-bottom: 10px; margin-top: 10px;">
       <p class="custom-p">The Rotary Club of Stokesley is organising a sponsored walk following the magnificent 100 miles of the Teesdale Way from Dufton in the Cumbrian Pennines to South Gare at the mouth of the Tees taking in the historic and scenic sights of Cumbria, Durham and Tees Valley en route. 
-         The walk, which will span eight days, will raise funds for the Rotary-supported charity Village Water, (www.villagewater.org), which provides safe water, sanitation and hygiene for, and fosters independence among, African communities and accounts for every penny! </p>
+         The walk, which will span eight days, will raise funds for the Rotary-supported charity Village Water, (www.villagewater.org), which provides safe water, sanitation, hygiene education and fosters independence among, African communities in Zambia. Every penny is accounted for! </p>
       <hr>   
     </div>
     <!---WHY WALK----------------------------------------------------------------------------------------------------------------------------------------->
@@ -61,7 +61,7 @@
       <h2>The Walk</h2>
       <h4><b>You can do it!</b></h4>
       <p class="custom-p">Those who may feel daunted by an eight day trek, can still join in because we’ve subdivided the route into manageable stages of 5-14 miles per day. You can join us for half a day, a full day or stay with us every step of the 100-mile way!</p>
-      <p class="custom-p">The Walk For Water will be led by experienced rambler of Stokesley, who will be ably supported by keen hikers from The Rotary Club of Stokesley. The walk is open to all ages though youngsters under 16 years of age must be accompanied by a responsible adult. 
+      <p class="custom-p">The Walk For Water will be led by experienced walkers from Stokesley, who will be ably supported by keen hikers from The Rotary Club of Stokesley. The walk is open to all ages though youngsters under 16 years of age must be accompanied by a responsible adult. 
          Whilst the walk leader and Rotary members will be there to guide and support you, your personal health and safety is your own responsibility. </p>
       <h5 style="margin-top:15px;"><b>Below you'll find the route and stages:</b></h5>   
       <img src="@/assets/map.png" width="70%">
@@ -207,9 +207,9 @@
           </p>
           <p class="reg"><b>Amount Paid Total: £ </b></p>
           <br>
-          <p class="reg">Alternative ways to pay:- <br/> 
+          <p class="reg">Alternative ways to pay (by <b>cheque</b>):- <br/> 
             <b>By post Amount enclosed: £ </b><br/> 
-            Please make your check out to The Rotary Club of Stokesley <br/> 
+            Please make your cheque out to The Rotary Club of Stokesley <br/> 
             T0: Walk for Water <br/> 
             10 Millgin Court <br/> 
             Ingleby Barwick <br/> 
