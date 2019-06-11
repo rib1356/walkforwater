@@ -237,7 +237,7 @@
           <li><a href="https://villagewater.org/" target="_blank" rel="noopener" style="color: blue;">Village Water Charity</a></li>
         </ul>
         <br>
-        <h2>Rotaries Six Areas of Focus</h2>
+        <h2>Rotary's Six Areas of Focus</h2>
         <ul style="font-size: 20px;">
           <li>Peace and conflict prevention/resolution</li>
           <li>Disease prevention and treatment</li>
