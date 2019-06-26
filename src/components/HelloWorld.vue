@@ -125,7 +125,7 @@
           <li>And, of course, <b>Don't forget sunscreen!</b></li>
         </ul>
         <h5><b>WANT TO KNOW MORE OR TALK IT OVER</b></h5>
-        <p class="no-marg">If you want to know anything specific, we’d be happy to help. Please call 01642 714562 or email us on walkforwaterfund@gmail.com</p>
+        <p class="no-marg">If you want to know anything specific, we’d be happy to help. Please call 01642 714562 or email us on walk4waterfund@gmail.com</p>
         <p><b>We welcome young people to participate: </b>Young people under the age of 16 must always have a responsible adult to walk with them.</p>
       </div>  
       <h3><b>WANT TO DONATE?</b></h3>
@@ -157,7 +157,7 @@
         <p>Please send this form with cheques made payable to The Rotary Club of Stokesley, Walk for Water, 10 Millgin Court, Ingelby Barwick, Teesside TS17 5AY</p>
         <p class="reg-info">Please, please try to get your friends and neighbours to join you.</p>
         <p class="reg-info">Confirmation sponsor forms and full information will be emailed to you – Payment secures your place.</p>
-        <p>Please copy and paste the form below, into your email with the relevant information to: <b>walkforwaterfund@gmail.com</b></p>
+        <p>Please copy and paste the form below, into your email with the relevant information to: <b>walk4waterfund@gmail.com</b></p>
         <div class="reg-div">
           <p class="reg"><b>Full Name:  </b></p>
           <p class="reg"><b>Address: </b></p>
