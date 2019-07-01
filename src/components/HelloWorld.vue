@@ -202,7 +202,7 @@
             </tr>
           </table>
           <p class="reg">Where and how to pay:- <br>
-          BACS Sort Code  20-56-74 account number 0010435287 with reference <br>
+          BACS Sort Code  20-56-74 account number 10435287 with reference <br>
           W4W and surname Eg W4W Blogs J
           </p>
           <p class="reg"><b>Amount Paid Total: £ </b></p>
