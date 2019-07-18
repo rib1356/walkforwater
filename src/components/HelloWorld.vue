@@ -129,7 +129,7 @@
         <p><b>We welcome young people to participate: </b>Young people under the age of 16 must always have a responsible adult to walk with them.</p>
       </div>  
       <h3><b>WANT TO DONATE?</b></h3>
-      <p>You can donate through our Virgin Giving page. Address is Virgin Giving Rotary Walk for Water</p>
+      <p>You can donate through our Virgin Giving page: <a href="https://uk.virginmoneygiving.com/charity-web/charity/displayEventDetails.action?eventId=33155&charityId=1013556&invocation=evt0050" target="_blank" rel="noopener" style="color: blue;"><b>Donate Here</b></a></p>
       <p class="no-marg"><i>Or pay by BACS online</i></p>
       <p class="no-marg"><i>Sort code: 20-56-74</i></p>
       <p class="no-marg"><i>Account number: 10435287</i></p>
@@ -235,6 +235,7 @@
           <li><a href="https://www.rotary-ribi.org/clubs/homepage.php?ClubID=166" target="_blank" rel="noopener" style="color: blue;">Stokesley Rotary Club</a></li>
           <li><a href="http://www.classicsonshow.co.uk/" target="_blank" rel="noopener" style="color: blue;">Classics on Show</a></li>
           <li><a href="https://villagewater.org/" target="_blank" rel="noopener" style="color: blue;">Village Water Charity</a></li>
+          <li><a href="https://uk.virginmoneygiving.com/charity-web/charity/displayEventDetails.action?eventId=33155&charityId=1013556&invocation=evt0050" target="_blank" rel="noopener" style="color: blue;">Virgin Money Giving - Donate Here</a></li>
         </ul>
         <br>
         <h2>Rotary's Six Areas of Focus</h2>
